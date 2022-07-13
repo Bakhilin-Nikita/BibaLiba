@@ -5,7 +5,7 @@
                 &#169; 2022
             </div>
             <div class="links-footer">
-                <?php if (empty($_SESSION)): ?>
+                <?php if (empty($_SESSION['logged_user']) && empty($_SESSION['logged_admin'])): ?>
                     <a href="index.php?page=5"><i class="fa fa-lock" aria-hidden="true"></i> Сотрудник</a>
                 <?php endif; ?>
                 <a href="index.php?page=10">Описание BibaLiba</a>

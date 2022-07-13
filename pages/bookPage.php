@@ -9,7 +9,7 @@ if (!empty($_GET['book_id'])) {
         $comment = trim($_POST['comment']);
         if (!empty($comment)) {
             $comment = addComment($comment, $_GET['book_id'], $_SESSION['login_user']);
-            header("Location:backdoor.php?page=11&book_id={$_GET['book_id']}");
+            header("Location: index.php?page=11&book_id={$_GET['book_id']}");
             exit();
         }
     }

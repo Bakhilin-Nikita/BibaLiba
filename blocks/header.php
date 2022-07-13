@@ -3,7 +3,7 @@
 if (isset($_GET['logout']))
 {
     session_destroy();
-    header('Location: backdoor.php');
+    header('Location: index.php');
     exit();
 }
 
