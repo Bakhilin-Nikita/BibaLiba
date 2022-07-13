@@ -1,0 +1,366 @@
+*{
+    font-family: "Oswald-Regular";
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: darkcyan;
+}
+
+.fa {
+    color: black;
+}
+
+footer .fa, header .fa {
+    color: white;
+}
+header .links .fa:hover {
+    color: #100610;
+}
+
+
+
+.catalog a:hover {
+    color: #fc1c17;
+    font-weight: 500;
+}
+
+.access {
+    padding: 10px;
+    background-color: black;
+    color: #e1e5dc;
+    font-size: 20px;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.error {
+    padding: 10px;
+    background-color: black;
+    color: red;
+    font-size: 20px;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+a {
+    text-decoration: none;
+}
+
+.links li {
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.content  {
+    margin-bottom: 100px;
+}
+
+header .links li:hover{
+    background-color: white;
+    color: #100610;
+}
+
+header .links li a:hover{
+    color: black;
+}
+
+.enter-name {
+    text-align: center;
+    padding: 10px 0 0;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color: #eddfec;
+}
+
+/*Buttons*/
+button {
+    border: none;
+    border-radius: 30px;
+    transition: box-shadow .1s ease-in,background-color .1s ease-in;
+}
+
+form button {
+    padding: 5px 10px;
+    color: white;
+    background-color: black;
+    display: block;
+    margin: 15px auto 0;
+}
+
+button:hover {
+    background-color: #573157;
+}
+
+/* header styles */
+header  {
+    background-color: #1e0909;
+}
+
+.head-content {
+    padding: 15px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.logo-name {
+    color: white;
+}
+
+form label {
+    font-weight: bold;
+}
+
+.welcome-block {
+    width: fit-content;
+    font-size: 25px;
+    margin: 50px auto;
+}
+
+.links {
+    height: auto;
+}
+
+ul {
+    margin: 5px;
+    display: flex;
+}
+
+ul li {
+    padding: 0 15px;
+    list-style-type: none;
+}
+
+li a:hover {
+    color: white;
+}
+
+.catalog {
+    margin: 20px 0;
+}
+
+.home-block {
+    flex-flow: column;
+    margin-bottom: 100px;
+}
+
+.form-block {
+    border: 2px solid black;
+    width: 400px;
+    margin: 50px auto;
+}
+
+form {
+    padding: 15px;
+}
+
+form input {
+    padding: 7px;
+    margin: 5px 0;
+    width: 100%;
+}
+
+
+.log-name {
+    padding: 15px 0 0;
+    text-align: center;
+}
+
+.profile-content {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.profile-content .personal-block  h3 {
+    font-size: 14px;
+    color: #7f7f7f;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.profile-content .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-block {
+    display: flex;
+    width: 100%;
+}
+
+.profile {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.addNewBook {
+    width: 500px;
+    border: 1px solid purple;
+}
+.addNewBook h3{
+    padding: 15px 0 0 ;
+    text-align: center;
+}
+.addNewBook form {
+    width: 100%;
+}
+
+.home-block {
+    display: flex;
+}
+
+.admin-panel {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.search-user {
+    margin: 0 0 10px;
+    padding: 10px;
+    border: 1px solid black;
+    background: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchBtn {
+    background: #573157;
+    color: white;
+    padding: 5px 10px;
+}
+
+.book {
+    margin: 20px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.book-user-list {
+    display: inline-block;
+}
+
+.user-books {
+    border: 1px solid black;
+}
+
+.order-block {
+    width: fit-content;
+}
+
+textarea {
+    width: 300px;
+    height: 200px;
+}
+
+/*about company*/
+.head-text  {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.search-book form {
+    display: flex;
+}
+
+.search-book form input[type = 'text'] {
+    width: 300px;
+}
+.search-book form input[type = 'submit'] {
+    width: fit-content;
+}
+
+
+footer {
+    background-color: #100610;
+    padding: 20px;
+    margin-top: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+footer .logo-footer {
+    color: white;
+}
+
+footer .links-footer {
+    font-size: 14px;
+}
+
+footer .links-footer a{
+    margin: 0  10px 0;
+}
+
+footer .footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.write-comment form {
+    display: grid;
+}
+.write-comment input {
+    width: fit-content;
+}
+
+.main-content {
+    margin-top: 50px;
+}
+
+.profile-book {
+    margin-top: 30px;
+    padding: 10px;
+    border: 1px solid #cbcbcb;
+    font-size: 17px;
+}
+
+.profile-book .btnDownload {
+    width: fit-content;
+    margin: 25px auto 0;
+}
+
+.under-header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    box-shadow: 0 0 4px #CCCCCC;
+}
+
+.block-1 {
+    padding: 10px 20px;
+    width: 480px;
+}
+
+.block-1 h3 {
+    color: #b771e0;
+}
+.block-1 p {
+    margin: 0.6em 0 1.2em;
+}
+
+.support {
+    width: 500px;
+}
+.support form {
+    padding: 0;
+}
+/*fonts*/
+
+@font-face {
+    font-family: "Oswald-Regular";
+    src: url("../fonts/Oswald-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
